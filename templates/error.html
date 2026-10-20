@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block title %}Помилка {{ code }}{% endblock %}{% block content %}<section class="card"><h1>Помилка {{ code }}</h1><p>{{ message }}</p><a href="{{ url_for('index') if user else url_for('login') }}">Повернутися</a></section>{% endblock %}
