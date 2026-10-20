@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+rentals.sqlite3
+rentals.sqlite3-*
+backups/
+logs/
+*.log
+config.json
